@@ -16,20 +16,21 @@
         android:src="@drawable/pizza_img" />
 
     <TextView
-        android:drawableLeft="@drawable/ic_location"
-        android:drawablePadding="16dp"
-        android:text="@string/location_string"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="16dp"
         android:padding="16dp"
+        android:text="@string/location_string"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
     <TextView
-        android:drawableLeft="@drawable/ic_phone"
-        android:drawablePadding="16dp"
-        android:text="@string/phone_string"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="16dp"
         android:padding="16dp"
+        android:text="@string/phone_string"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 </LinearLayout>
