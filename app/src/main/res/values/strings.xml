@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Super Duper Pizza</string>
+    <string name="location_string">Cairo, 6th of October City, Pizza street</string>
+    <string name="phone_string">0100 100 200 300</string>
 </resources>
